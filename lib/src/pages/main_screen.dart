@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:login_ui_demo/src/pages/login_page.dart';
+import 'package:login_ui_demo/src/pages/page_test_view.dart';
 import 'package:login_ui_demo/src/pages/sign_in_1.dart';
 import 'package:login_ui_demo/src/pages/sign_in_2.dart';
 import 'package:login_ui_demo/src/pages/sign_in_3.dart';
@@ -14,6 +15,7 @@ import 'package:login_ui_demo/src/pages/sign_in_9.dart';
 import 'package:login_ui_demo/src/pages/sign_in_10.dart';
 import 'package:login_ui_demo/src/pages/sign_up.dart';
 
+import '../hotel_booking/hotel_home_screen.dart';
 import '../meditation/meditation_screen.dart';
 
 class MainScreen extends StatelessWidget {
@@ -125,6 +127,24 @@ class MainScreen extends StatelessWidget {
                 ),
               ),
               buildButton(
+                'LogIn',
+                context,
+                () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const LogIn(),
+                  ),
+                ),
+              ),
+              buildButton(
+                'Sign Up',
+                context,
+                () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const SignUp(),
+                  ),
+                ),
+              ),
+              buildButton(
                 'Meditation',
                 context,
                 () => Navigator.of(context).push(
@@ -138,7 +158,16 @@ class MainScreen extends StatelessWidget {
                 context,
                 () => Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (context) => const MeditationScreen(),
+                    builder: (context) =>  HotelHomeScreen(),
+                  ),
+                ),
+              ),
+              buildButton(
+                'Dummy',
+                context,
+                () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) =>  PageTestView(),
                   ),
                 ),
               ),

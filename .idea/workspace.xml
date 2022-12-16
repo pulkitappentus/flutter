@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d3032a-922f-4cd0-8a5d-412636e7e6d6" name="Changes" comment="some UI changes">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hotel_booking/calendar_popup_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hotel_booking/custom_calendar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_app_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/pages/page_test_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/meditation/welcome_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/meditation/welcome_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/pages/list_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +48,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src/hotel_booking" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\hotel_booking" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\assets" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\assets\introduction_animation" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\meditation" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\theme" />
-      <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\pages" />
     </key>
   </component>
   <component name="RunManager">

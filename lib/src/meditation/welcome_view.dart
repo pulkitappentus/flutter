@@ -13,7 +13,7 @@ class WelcomeView extends StatelessWidget {
       CurvedAnimation(
         parent: animationController,
         curve: Interval(
-          0.6,
+          0.4,
           0.8,
           curve: Curves.fastOutSlowIn,
         ),
