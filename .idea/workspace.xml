@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d3032a-922f-4cd0-8a5d-412636e7e6d6" name="Changes" comment="some UI changes">
-      <change afterPath="$PROJECT_DIR$/assets/hotel/hotel_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hotel/hotel_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hotel/hotel_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hotel/hotel_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hotel/hotel_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hotel/hotel_booking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/introduction_animation/care_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/introduction_animation/lotus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/introduction_animation/mood_dairy_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/introduction_animation/relax_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/introduction_animation/welcome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_home_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/hotel_booking/model/hotel_list_data.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/card_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/center_next_button.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/meditation_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/mood_diary_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/relax_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/splash_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/top_back_skip_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/meditation/welcome_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/list_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/login_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +30,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
@@ -66,7 +42,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
