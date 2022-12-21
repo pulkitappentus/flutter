@@ -10,6 +10,14 @@ class Assets {
   static const String assetsLogo2 = 'assets/logo2.svg';
   static const String assetsSmall1bg = 'assets/small1bg.svg';
   static const String assetsSmall2bg = 'assets/small2bg.svg';
+  static const String fontsSatoshiBlack = 'assets/fonts/satoshi_black.ttf';
+  static const String fontsSatoshiBold = 'assets/fonts/satoshi_bold.ttf';
+  static const String fontsSatoshiItalic = 'assets/fonts/satoshi_italic.ttf';
+  static const String fontsSatoshiLight = 'assets/fonts/satoshi_light.ttf';
+  static const String fontsSatoshiRegular = 'assets/fonts/satoshi_regular.ttf';
+  static const String hoofzyMenu = 'assets/hoofzy/menu.png';
+  static const String hoofzyNotification = 'assets/hoofzy/notification.png';
+  static const String hoofzyProfile = 'assets/hoofzy/profile.png';
   static const String hotelHotel1 = 'assets/hotel/hotel_1.png';
   static const String hotelHotel2 = 'assets/hotel/hotel_2.png';
   static const String hotelHotel3 = 'assets/hotel/hotel_3.png';

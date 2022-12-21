@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d3032a-922f-4cd0-8a5d-412636e7e6d6" name="Changes" comment="some UI changes">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/satoshi_black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/satoshi_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/satoshi_italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/satoshi_light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/satoshi_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generated/assets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated/assets.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_list_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/hotel_booking/model/hotel_list_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/hotel_booking/model/hotel_list_data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/pages/page_test_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/page_test_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +57,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src/hotel_booking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/fonts" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\GitHub\flutter\assets\fonts" />
+      <recent name="C:\Users\hp\Documents\GitHub\flutter\assets\hoofzy" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\hotel_booking" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\assets" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\assets\introduction_animation" />
-      <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\meditation" />
-      <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\theme" />
     </key>
   </component>
   <component name="RunManager">
@@ -76,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669463847011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some UI changes">
+      <created>1671454014689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671454014689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

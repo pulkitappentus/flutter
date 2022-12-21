@@ -17,6 +17,7 @@ import 'package:login_ui_demo/src/pages/sign_up.dart';
 
 import '../hotel_booking/hotel_home_screen.dart';
 import '../meditation/meditation_screen.dart';
+import 'hoofzy_page.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -168,6 +169,15 @@ class MainScreen extends StatelessWidget {
                 () => Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (context) =>  PageTestView(),
+                  ),
+                ),
+              ),
+              buildButton(
+                'Hoofzy',
+                context,
+                () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) =>  HoofzyPage(),
                   ),
                 ),
               ),

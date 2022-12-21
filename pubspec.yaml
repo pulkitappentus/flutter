@@ -69,6 +69,7 @@ flutter:
     - assets/
     - assets/introduction_animation/
     - assets/hotel/
+    - assets/hoofzy/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -81,11 +82,14 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+#   fonts:
+#     - family: Schyler
+#       fonts:
+#         - asset: fonts/satoshi_black.ttf
+#         - asset: fonts/satoshi_bold.ttf
+#         - asset: fonts/satoshi_italic.ttf
+#         - asset: fonts/satoshi_light.ttf
+#         - asset: fonts/satoshi_regular.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
