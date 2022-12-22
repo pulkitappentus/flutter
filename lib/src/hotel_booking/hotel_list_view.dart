@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'hotel_app_theme.dart';
 import 'model/hotel_list_data.dart';
 
 class HotelListView extends StatelessWidget {

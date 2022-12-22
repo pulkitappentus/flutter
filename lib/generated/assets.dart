@@ -15,8 +15,16 @@ class Assets {
   static const String fontsSatoshiItalic = 'assets/fonts/satoshi_italic.ttf';
   static const String fontsSatoshiLight = 'assets/fonts/satoshi_light.ttf';
   static const String fontsSatoshiRegular = 'assets/fonts/satoshi_regular.ttf';
+  static const String hoofzyCalander = 'assets/hoofzy/calander.png';
+  static const String hoofzyDog1 = 'assets/hoofzy/dog1.jpeg';
+  static const String hoofzyDog2 = 'assets/hoofzy/dog2.jpg';
+  static const String hoofzyDog3 = 'assets/hoofzy/dog3.jpg';
+  static const String hoofzyDog4 = 'assets/hoofzy/dog4.jpg';
+  static const String hoofzyKn1 = 'assets/hoofzy/kn1.png';
+  static const String hoofzyKn2 = 'assets/hoofzy/kn2.png';
   static const String hoofzyMenu = 'assets/hoofzy/menu.png';
   static const String hoofzyNotification = 'assets/hoofzy/notification.png';
+  static const String hoofzyPaws = 'assets/hoofzy/paws.png';
   static const String hoofzyProfile = 'assets/hoofzy/profile.png';
   static const String hotelHotel1 = 'assets/hotel/hotel_1.png';
   static const String hotelHotel2 = 'assets/hotel/hotel_2.png';

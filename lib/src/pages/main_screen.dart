@@ -17,7 +17,7 @@ import 'package:login_ui_demo/src/pages/sign_up.dart';
 
 import '../hotel_booking/hotel_home_screen.dart';
 import '../meditation/meditation_screen.dart';
-import 'hoofzy_page.dart';
+import 'hoofzy/hoofzy_page.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -32,12 +32,12 @@ class MainScreen extends StatelessWidget {
           behavior: ScrollConfiguration.of(context).copyWith(scrollbars: false), //to hide scrollbar
           child: ListView(
             children: [
-              logo(100, 100),
+             // logo(100, 100),
               const SizedBox(
                 height: 16,
               ),
               richText(18),
-              buildButton(
+             /* buildButton(
                 'Design 1',
                 context,
                 () => Navigator.of(context).push(
@@ -171,7 +171,7 @@ class MainScreen extends StatelessWidget {
                     builder: (context) =>  PageTestView(),
                   ),
                 ),
-              ),
+              ),*/
               buildButton(
                 'Hoofzy',
                 context,
@@ -207,13 +207,13 @@ class MainScreen extends StatelessWidget {
         ),
         children: const [
           TextSpan(
-            text: 'LOGIN ',
+            text: 'HOOFZY ',
             style: TextStyle(
               fontWeight: FontWeight.w800,
             ),
           ),
           TextSpan(
-            text: 'PAGES \nUI ',
+            text: 'UI ',
             style: TextStyle(
               color: Color(0xFFFE9879),
               fontWeight: FontWeight.w800,
