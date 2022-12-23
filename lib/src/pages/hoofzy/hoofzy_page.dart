@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
+import 'package:login_ui_demo/src/pages/hoofzy/hoofzy_app_theme.dart';
+import 'package:login_ui_demo/src/pages/hoofzy/tabIcon_data.dart';
 import 'package:login_ui_demo/src/pages/hoofzy/training_program_data.dart';
 import 'package:login_ui_demo/src/pages/hoofzy/training_program_list.dart';
+import 'package:login_ui_demo/src/pages/sign_up.dart';
 import '../../hotel_booking/hotel_app_theme.dart';
 import '../../hotel_booking/hotel_list_view.dart';
 import '../../hotel_booking/model/hotel_list_data.dart';
+import 'bottom_navigation_view/bottom_bar_view.dart';
 import 'hoofzy_design_app_theme.dart';
 import 'knowledge_book_list_view.dart';
 import 'knowledge_drama_list.dart';
@@ -26,6 +31,8 @@ class _HoofzyPageState extends State<HoofzyPage> with TickerProviderStateMixin {
   List<KnowledgeProgramData> knowledgeList = KnowledgeProgramData.knowledgeList;
   List<KnowledgeDramaList> knowledgeDramaList = KnowledgeDramaList.knowledgeDramaList;
   final ScrollController _scrollController = ScrollController();
+
+  List<TabIconData> tabIconsList = TabIconData.tabIconsList;
 
   @override
   void initState() {
@@ -195,6 +202,25 @@ class _HoofzyPageState extends State<HoofzyPage> with TickerProviderStateMixin {
                     upcomingScheduleHeading("Services"),
                     upcomingScheduleHeading2("Provide your pet with the best services"),
                     servicesList(context),
+                    /*BottomBarView(
+                      tabIconsList: tabIconsList,
+                      addClick: () {},
+                      changeIndex: (int index) {
+                        if (index == 0 || index == 2) {
+                          animationController?.reverse().then<dynamic>((data) {
+                            if (!mounted) {
+                              return;
+                            }
+                          });
+                        } else if (index == 1 || index == 3) {
+                          animationController?.reverse().then<dynamic>((data) {
+                            if (!mounted) {
+                              return;
+                            }
+                          });
+                        }
+                      },
+                    ),*/
                   ],
                 ),
               ),
@@ -213,8 +239,12 @@ Widget upcomingEventList(BuildContext context) {
       height: 100,
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
-          color: const Color(0xFFFFC2A4),
-          borderRadius: BorderRadius.circular(12)
+          borderRadius: BorderRadius.circular(12),
+          gradient: const LinearGradient(colors: [Color(0xFFFFF4DB), Color(0xFFFFCD57B)],
+              stops: [0.0, 1.0],
+              begin: FractionalOffset.topCenter,
+              end: FractionalOffset.bottomCenter,
+              tileMode: TileMode.repeated)
       ),
       child: Padding(
         padding: const EdgeInsets.only(left: 12,right: 12,bottom: 12),
@@ -279,7 +309,12 @@ Widget servicesList(BuildContext context) {
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
           color: const Color(0xFFCAC2FF),
-          borderRadius: BorderRadius.circular(12)
+          borderRadius: BorderRadius.circular(20),
+          gradient: const LinearGradient(colors: [Color(0xFFCAC2FF), Color(0xFFF2E7F8)],
+              stops: [0.0, 1.0],
+              begin: FractionalOffset.topCenter,
+              end: FractionalOffset.bottomCenter,
+              tileMode: TileMode.repeated)
       ),
       child: Padding(
         padding: const EdgeInsets.only(left: 12,right: 12,bottom: 12),
@@ -416,7 +451,7 @@ Widget getAppBarUI(BuildContext context) {
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Image.asset('assets/hoofzy/profile.png',width: 36,height: 36,fit: BoxFit.fill,)
+                  child: Image.asset('assets/hoofzy/prpp.png',width: 36,height: 36,fit: BoxFit.fill,)
                 ),
               ),
             ),

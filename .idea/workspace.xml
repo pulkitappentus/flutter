@@ -8,27 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d3032a-922f-4cd0-8a5d-412636e7e6d6" name="Changes" comment="some UI changes">
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/calander.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/dog1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/dog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/dog3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/dog4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/kn1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/kn2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hoofzy/paws.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/hoofzy_design_app_theme.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/knowledge_book_list_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/knowledge_drama_list.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/knowledge_drama_list_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/knowledge_program_list.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/training_program_data.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/training_program_list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/fav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/furry_friend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hoofzy/prpp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/bottom_navigation_view/bottom_bar_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/hoofzy_app_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/hoofzy_pager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/tabIcon_data.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hoofzy/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/hoofzy/profile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/generated/assets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated/assets.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/hotel_booking/hotel_list_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/hotel_booking/model/hotel_list_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/hotel_booking/model/hotel_list_data.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/pages/hoofzy_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/hoofzy_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/pages/hoofzy/hoofzy_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/hoofzy_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/pages/hoofzy/training_program_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/hoofzy/training_program_list.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/main_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +62,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src/pages/hoofzy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/hoofzy" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,8 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\pages\hoofzy" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\assets\hoofzy" />
+      <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\pages\hoofzy" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\pages" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\assets\fonts" />
       <recent name="C:\Users\hp\Documents\GitHub\flutter\lib\src\hotel_booking" />
