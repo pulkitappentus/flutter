@@ -149,8 +149,8 @@ class SignInOne extends StatelessWidget {
             labelStyle: GoogleFonts.inter(
               fontSize: 12.0,
               color: const Color(0xFF969AA8),
-            ),
-            border: InputBorder.none),
+            )
+        ),
       ),
     );
   }

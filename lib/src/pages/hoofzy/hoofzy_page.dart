@@ -202,25 +202,6 @@ class _HoofzyPageState extends State<HoofzyPage> with TickerProviderStateMixin {
                     upcomingScheduleHeading("Services"),
                     upcomingScheduleHeading2("Provide your pet with the best services"),
                     servicesList(context),
-                    /*BottomBarView(
-                      tabIconsList: tabIconsList,
-                      addClick: () {},
-                      changeIndex: (int index) {
-                        if (index == 0 || index == 2) {
-                          animationController?.reverse().then<dynamic>((data) {
-                            if (!mounted) {
-                              return;
-                            }
-                          });
-                        } else if (index == 1 || index == 3) {
-                          animationController?.reverse().then<dynamic>((data) {
-                            if (!mounted) {
-                              return;
-                            }
-                          });
-                        }
-                      },
-                    ),*/
                   ],
                 ),
               ),

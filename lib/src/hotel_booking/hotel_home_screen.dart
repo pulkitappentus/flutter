@@ -76,8 +76,7 @@ class _HotelHomeScreenState extends State<HotelHomeScreen> with TickerProviderSt
                           ];
                         },
                         body: Container(
-                          color:
-                          HotelAppTheme.buildLightTheme().backgroundColor,
+                          color: HotelAppTheme.buildLightTheme().backgroundColor,
                           child: ListView.builder(
                             itemCount: hotelList.length,
                             padding: const EdgeInsets.only(top: 8),

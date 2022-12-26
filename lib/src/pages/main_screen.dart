@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:login_ui_demo/src/pages/hoofzy/on_boarding_screens/on_boarding.dart';
 import 'package:login_ui_demo/src/pages/login_page.dart';
 import 'package:login_ui_demo/src/pages/page_test_view.dart';
 import 'package:login_ui_demo/src/pages/sign_in_1.dart';
@@ -18,7 +19,8 @@ import 'package:login_ui_demo/src/pages/sign_up.dart';
 import '../hotel_booking/hotel_home_screen.dart';
 import '../meditation/meditation_screen.dart';
 import 'hoofzy/hoofzy_page.dart';
-import 'hoofzy/hoofzy_pager.dart';
+import 'hoofzy/introduction_screen/introduction_view.dart';
+import 'hoofzy/on_boarding_screens/boarding_1.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -183,11 +185,20 @@ class MainScreen extends StatelessWidget {
                 ),
               ),
               buildButton(
-                'Hoofzy View Pager',
+                'Hoofzy Page View 1',
                 context,
                 () => Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (context) =>  HoofzyPager(),
+                    builder: (context) =>  OnBoarding(),
+                  ),
+                ),
+              ),
+              buildButton(
+                'Hoofzy Page View 2',
+                context,
+                () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) =>  IntoductionView(),
                   ),
                 ),
               ),
